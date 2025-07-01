@@ -107,3 +107,40 @@ padding: 24px;
 margin: 0;
 font-size: 24px;
 }
+
+label{
+   font-size: 20px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.barra {
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.fraca {
+    height: 30px;
+    width: 25%;
+    background-color: #E71B32;
+    position: relative;
+    bottom: 30px;
+}
+
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.media {
+    height: 30px;
+    width: 50%;
+    background-color: #FAF408;
+    position: relative;
+    bottom: 30px;
+}
